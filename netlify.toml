@@ -1,4 +1,4 @@
 [[redirects]]
-from = "/*"
+from = "/api/auth/signout"
 to = "/index.html"
 status = 302
