@@ -6,13 +6,19 @@ import { Observable } from 'rxjs';
 
  
 
-const AUTH_API = 'http://localhost:8080/api/auth/';
-
+//const AUTH_API = 'http://localhost:8080/api/auth/';
+const AUTH_API = 'https://grocery-bl0c.onrender.com/api/auth/';
  
 
 const httpOptions = {
 
-  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+  //headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+  headers: new HttpHeaders({
+    'Content-Type': 'application/json',
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Headers':
+    'Origin, X-Requested-With, Content-Type, Accept'
+    })
 
 };
 
