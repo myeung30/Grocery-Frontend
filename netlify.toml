@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/api/auth/signout"
-to = "/index.html"
-status = 302
+to = "/product.html"
+status = 200
